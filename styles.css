@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
+
+* {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.header__ref p {
+    color: #0C1B66;
+}
+
+.slider__body {
+    scroll-behavior: smooth;
+}
+
+.slider__nav-buttons {
+    cursor: pointer;
+}
+
+.slider__nav-button-left {
+    transform: rotate(180deg);
+}
+
+.reviews__marker {
+    width: 8px;
+    height: 8px;
+    background-color: #F7A238;
+    border-radius: 50%;
+}
+
+.my-modal {
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.form__input-wrap input::placeholder{
+    color: black;
+}
+
+.form__phone {
+    background-image: url(img/phone.svg);
+    background-repeat: no-repeat;
+    background-position: center right 5%;
+}
+
+
+.footer__conditions span {
+    min-width: 4px;
+    min-height: 4px;
+    background-color: #878787;
+}
+
+.rounded-16 {
+    border-radius: 16px;
+}
